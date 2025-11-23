@@ -3,7 +3,7 @@ import axios from 'axios';
 // Set the Render backend URL here (no trailing slash).
 // Example: 'https://helpdeskcrm-service.onrender.com'
 // NOTE: you asked to avoid .env — this constant will be used directly.
-const BACKEND_BASE_URL = 'https://helpdeskcrm-service.onrender.com';
+const BACKEND_BASE_URL = 'https://helpdesk-backend-90tl.onrender.com/api';
 
 const base = BACKEND_BASE_URL
   ? `${BACKEND_BASE_URL}/api`
